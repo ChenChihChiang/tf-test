@@ -1,0 +1,8 @@
+version: 0.2
+
+phases:
+    commands:
+      - echo "build 1"
+  post_build:
+    commands:
+      - echo "post 1"
