@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "build 1"
+      - echo "build"
   post_build:
     commands:
-      - echo "post 1"
+      - echo "post"
 artifacts:
   files:
     - '**/*'
