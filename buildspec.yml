@@ -6,3 +6,6 @@ phases:
   post_build:
     commands:
       - echo "post 1"
+artifacts:
+  files:
+    - '**/*'
