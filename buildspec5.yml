@@ -3,7 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "build 5"
+      - echo "REGION= $REGION"
+      - echo "CONFIG= $CONFIG"
   post_build:
     commands:
       - echo "post 5"
